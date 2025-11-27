@@ -1,0 +1,22 @@
+hola esta es minweb de github porq no tengo servidor jajaj QvQ XD
+juego de python hecho por:Bowen es un juego facil porque soy nuevo
+import ramdo
+
+numero = random.randint(1, 30)
+intentos = 0
+
+print("Adivina el número del 1 al 30")
+
+while True:
+    guess = int(input("Tu número: "))
+    intentos += 1
+    
+    if guess < numero:
+        print("Más alto")
+    elif guess > numero:
+        print("Más bajo")
+    else:
+        print(f"¡Correcto! Lo has conseguido en {intentos} intentos.")
+        break
+es un juego muy fácil xd soy muy nuevo en python pero cuando soy mayor voy a ser el mejor programdor del Madrid me gusta muchísimo
+bueno me tengo q ir bye XD
